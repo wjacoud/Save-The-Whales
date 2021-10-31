@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="estilo_trabalhoTW01.css" rel=stylesheet>
+    <script src="https://kit.fontawesome.com/183af31d56.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="tit1">SAVE THE WHALES</h1>
+    <div class="mainmenu">
+        <nav class="btn-menu" id="menu-icon"><a href="#" onclick="openSlideMenu()"><i class="fas fa-bars fa-2x"></i></a>
+        </nav>
+        <ul>
+            <li class="horizontal"><a href="index.html">Home</a></li>
+            <li class="horizontal"><a href="quemsomos.html">Quem somos</a></li>
+            <li class="horizontal"><a href="oquefazemos.html">O que fazemos</a></li>
+            <li class="horizontal"><a href="publicacoes.html">Publicações</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="publicacoes.html#noticias">Notícias</a></li>
+                    <li class="vertical"><a href="publicacoes.html#artigos">Artigos Científicos</a></li>
+                </ul>
+            </li>
+            <li class="horizontal"><a href="eventos.html">Eventos</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="eventos.html#futuros">Futuros</a></li>
+                    <li class="vertical"><a href="eventos.html#anteriores">Anteriores</a></li>
+                </ul>
+            </li>
+            <li class="horizontal"><a href="media.html">Media</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="media.html#fotos">Fotos</a></li>
+                    <li class="vertical"><a href="media.html#livecam">Live Cams</a></li>
+                </ul>
+            </li>
+            <li class="horizontal" id="login"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="slidemenu" id="slide-nav">
+        <ul>
+            <li class="horizontal-slide"><a href="#" class="btn-close" onclick="closeSlideMenu()"><i
+                        class="fas fa-window-close"></i></a></li>
+            <li class="horizontal-slide"><a href="index.html">Home</a></li>
+            <li class="horizontal-slide"><a href="quemsomos.html">Quem somos</a></li>
+            <li class="horizontal-slide"><a href="oquefazemos.html">O que fazemos</a></li>
+            <li class="horizontal-slide"><a href="publicacoes.html">Publicações</a></li>
+            <li class="horizontal-slide"><a href="eventos.html">Eventos</a></li>
+            <li class="horizontal-slide"><a href="media.html">Media</a></li>
+            <li class="horizontal-slide" id="login"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2 class="h2alt">Log In</h2>
+        <div class="login-container">
+            <div class="loginform-container">
+                <h5 class="logok">Log In efetuado com sucesso!</h5><br><br><br>
+                <a href="index.html">Voltar</a>
+            </div>
+            <div class="loginImg">
+                <img src="Photos/whale-5.jpeg" id="loginImg">
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="contacts">
+            <h4>Contactos:</h4>
+            <div class="social">
+                <a href="https://www.facebook.com/SaveTheWhalesCA/"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.instagram.com/savethewhalesca/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/savethewhalesca"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCtNumOLITLVpDP8beVF9sEA"><i
+                        class="fab fa-youtube-square fa-2x"></i></a>
+            </div>
+            <div class="adress">
+                <h4>Visite nossa sede</h4>
+                Morada: 1192 Waring St, Seaside, CA 93955, Estados Unidos
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.016876299733!2d-121.83682268474976!3d36.
+            60190258653661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de4e0196fb935%3A0xc4d5adf68b8e94fa!2s
+            Save%20the%20Whales!5e0!3m2!1spt-PT!2spt!4v1575220949301!5m2!1spt-PT!2spt" width="300" height="225"
+                frameborder="0" style="border:0;" allowfullscreen="">
+                Location
+            </iframe>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="Slideshow.js"></script>
+
+</html>

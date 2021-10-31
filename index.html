@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="estilo_trabalhoTW01.css" rel=stylesheet>
+    <script src="https://kit.fontawesome.com/183af31d56.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="tit1">SAVE THE WHALES</h1>
+    <div class="mainmenu">
+        <nav class="btn-menu" id="menu-icon"><a href="#" onclick="openSlideMenu()"><i class="fas fa-bars fa-2x"></i></a>
+        </nav>
+        <ul>
+            <li class="horizontal"><a href="index.html">Home</a></li>
+            <li class="horizontal"><a href="quemsomos.html">Quem somos</a></li>
+            <li class="horizontal"><a href="oquefazemos.html">O que fazemos</a></li>
+            <li class="horizontal"><a href="publicacoes.html">Publicações</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="publicacoes.html#noticias">Notícias</a></li>
+                    <li class="vertical"><a href="publicacoes.html#artigos">Artigos Científicos</a></li>
+                </ul>
+            </li>
+            <li class="horizontal"><a href="eventos.html">Eventos</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="eventos.html#futuros">Futuros</a></li>
+                    <li class="vertical"><a href="eventos.html#anteriores">Anteriores</a></li>
+                </ul>
+            </li>
+            <li class="horizontal"><a href="media.html">Media</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="media.html#fotos">Fotos</a></li>
+                    <li class="vertical"><a href="media.html#livecam">Live Cams</a></li>
+                </ul>
+            </li>
+            <li class="horizontal" id="login"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="slidemenu" id="slide-nav">
+        <ul>
+            <li class="horizontal-slide"><a href="#" class="btn-close" onclick="closeSlideMenu()"><i
+                        class="fas fa-window-close"></i></a></li>
+            <li class="horizontal-slide"><a href="index.html">Home</a></li>
+            <li class="horizontal-slide"><a href="quemsomos.html">Quem somos</a></li>
+            <li class="horizontal-slide"><a href="oquefazemos.html">O que fazemos</a></li>
+            <li class="horizontal-slide"><a href="publicacoes.html">Publicações</a></li>
+            <li class="horizontal-slide"><a href="eventos.html">Eventos</a></li>
+            <li class="horizontal-slide"><a href="media.html">Media</a></li>
+            <li class="horizontal-slide" id="login"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <article>
+            Queria não ver nuvens escuras nos ares.
+            Navegar sem manchas de óleo nos mares.
+            Baleias desaparecendo por falta de escrúpulos comerciais.
+            Queria ser civilizado como os animais.
+        </article>
+
+        <div class="img-container">
+            <img class="img-display" src="Photos/baleiadebryde.jpg">
+        </div>
+        <div class=btn-container>
+            <button id=btn-back><i class="fas fa-arrow-left fa-2x"></i></button>
+            <button id=btn-next><i class="fas fa-arrow-right fa-2x"></i></button>
+        </div>
+        <div class="qs">
+            <div class="quemsomos">
+                <h2>Quem Somos</h2>
+                <p>
+                    Nossa missão é preservar e proteger o oceano e seus habitantes.
+                    A Save the Whales foi fundada em 1977, quando Maris Sidenstecker tinha 14 anos,
+                    e se concentra em educar o público, especialmente crianças,
+                    sobre mamíferos marinhos e o frágil ambiente oceânico.
+                    A Save the Whales acredita que as crianças, o futuro do planeta,
+                    precisam ser capacitadas e sabem que suas ações podem promover mudanças.
+                    A educação é a chave para salvar baleias, oceanos e nós mesmos.
+                    Muitas pessoas acreditam que as baleias foram protegidas pela proibição mundial de 1986 às baleias.
+                </p>
+                <a href="quemsomos.html">Leia mais</a>
+            </div>
+            <div>
+                <img class="photoqs" src="Photos\Equipa1.jpg">
+            </div>
+        </div>
+        <div class="oqf">
+            <div>
+                <img class="photooqf" src="Photos\whale saves human.jpg">
+            </div>
+            <div class="oquefazemos">
+                <h2>O Que Fazemos</h2>
+                <p>
+                    1. Ofereça-se com grupos da comunidade local para estêncil drenos pluviais,
+                    Adote uma praia ou monitore a qualidade da água das bacias hidrográficas locais.
+                    Organize sua sala de aula, clube escolar ou organização para limpar o lixo de rios,
+                    riachos, estuários e praias. A poluição das águas pluviais (escoamento urbano)
+                    é a principal causa de poluição das águas em todo o país.Poluentes como óleo de motor,
+                    anticongelante, detergentes, lixo, tintas, pesticidas, resíduos de animais e cobre (das pastilhas de
+                    freio)
+                    são lavados nas ruas e drenados pelas tempestades que levam direto aos rios, riachos e oceanos.
+                </p>
+                <a href="oquefazemos.html">Leia mais</a>
+            </div>
+            <a href="index.html">Voltar</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="contacts">
+            <h4>Contactos:</h4>
+            <div class="social">
+                <a href="https://www.facebook.com/SaveTheWhalesCA/"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.instagram.com/savethewhalesca/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/savethewhalesca"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCtNumOLITLVpDP8beVF9sEA"><i
+                        class="fab fa-youtube-square fa-2x"></i></a>
+            </div>
+            <div class="adress">
+                <h4>Visite nossa sede</h4>
+                Morada: 1192 Waring St, Seaside, CA 93955, Estados Unidos
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.016876299733!2d-121.83682268474976!3d36.
+            60190258653661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de4e0196fb935%3A0xc4d5adf68b8e94fa!2s
+            Save%20the%20Whales!5e0!3m2!1spt-PT!2spt!4v1575220949301!5m2!1spt-PT!2spt" width="300" height="225"
+                frameborder="0" style="border:0;" allowfullscreen="">
+                Location
+            </iframe>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="Slideshow.js"></script>
+
+</html>

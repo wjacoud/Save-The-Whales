@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="estilo_trabalhoTW01.css" rel=stylesheet>
+    <script src="https://kit.fontawesome.com/183af31d56.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="tit1">SAVE THE WHALES</h1>
+    <div class="mainmenu">
+        <nav class="btn-menu" id="menu-icon"><a href="#" onclick="openSlideMenu()"><i class="fas fa-bars fa-2x"></i></a>
+        </nav>
+        <ul>
+            <li class="horizontal"><a href="index.html">Home</a></li>
+            <li class="horizontal"><a href="quemsomos.html">Quem somos</a></li>
+            <li class="horizontal"><a href="oquefazemos.html">O que fazemos</a></li>
+            <li class="horizontal"><a href="publicacoes.html">Publicações</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="publicacoes.html#noticias">Notícias</a></li>
+                    <li class="vertical"><a href="publicacoes.html#artigos">Artigos Científicos</a></li>
+                </ul>
+            </li>
+            <li class="horizontal"><a href="eventos.html">Eventos</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="eventos.html#futuros">Futuros</a></li>
+                    <li class="vertical"><a href="eventos.html#anteriores">Anteriores</a></li>
+                </ul>
+            </li>
+            <li class="horizontal"><a href="media.html">Media</a>
+                <ul class="dropdown">
+                    <li class="vertical"><a href="media.html#fotos">Fotos</a></li>
+                    <li class="vertical"><a href="media.html#livecam">Live Cams</a></li>
+                </ul>
+            </li>
+            <li class="horizontal" id="login"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="slidemenu" id="slide-nav">
+        <ul>
+            <li class="horizontal-slide"><a href="#" class="btn-close" onclick="closeSlideMenu()"><i
+                        class="fas fa-window-close"></i></a></li>
+            <li class="horizontal-slide"><a href="index.html">Home</a></li>
+            <li class="horizontal-slide"><a href="quemsomos.html">Quem somos</a></li>
+            <li class="horizontal-slide"><a href="oquefazemos.html">O que fazemos</a></li>
+            <li class="horizontal-slide"><a href="publicacoes.html">Publicações</a></li>
+            <li class="horizontal-slide"><a href="eventos.html">Eventos</a></li>
+            <li class="horizontal-slide"><a href="media.html">Media</a></li>
+            <li class="horizontal-slide" id="login"><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="publi">
+            <h2>Eventos</h2>
+            <div id="futuros">
+                <h2 class="pubtit">Futuros</h2><br>
+            </div>
+            <div class="container">
+                <div class="column"> <img src="Eventos/evt1.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Salve uma Baleia, Salve o Mundo! - Blue Whale</div>
+                        <p> Manifestação pela preservação da vida. Nossos laços precisam de ajuda, faça a sua parte!<br>
+                        </p>
+                        <div class="right"> Coimbra/POR - 15/01/2020 </div>
+                    </div>
+                </div>
+                <div class="column"> <img src="Eventos/evt2.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Whales in the Thames</div>
+                        <p> Participe de um de nossos eventos de captação de recursos para arrecadar fundos para
+                            baleias.</p>
+                        <div class="right"> Amsterdam/NED - 20/01/2020 </div>
+                    </div>
+                </div>
+                <div class="column"> <img src="Eventos/evt3.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Tonah - Save The Whales Organization‎</div>
+                        <p> Corra, ande e nade para ajudar a salvar baleias e golfinhos - talvez você também consiga?
+                        </p>
+                        <div class="right"> Zurique/SWI - 11/02/2020 </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="column"> <img src="Eventos/evt4.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Diga Não a Caça as Baleias!</div>
+                        <p> A advogada dos oceanos da Prefeitura de Lisboa, no Centro, Catherine Kilduff, estará falando
+                            neste evento.</p>
+                        <div class="right"> Lisboa/POR - 13/02/2020 </div>
+                    </div>
+                </div>
+                <div class="column"> <img src="Eventos/evt5.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Whale Fest Tokyo - Maui</div>
+                        <p> As pessoas se reúnem na Save the Whales March na Main. O evento foi coordenado com condados
+                            costeiros.</p>
+                        <div class="right"> Tokyo/JPN - 22/02/2020 </div>
+                    </div>
+                </div>
+                <div class="column"> <img src="Eventos/evt6.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Northcoast Whale Festival</div>
+                        <p>Notícias sobre baleias, incluindo artigos. Encontrar maneiras de proteger as baleias com os
+                            pescadores</p>
+                        <div class="right"> Praga/CZE - 04/03/2020 </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="column"> <img src="Eventos/evt7.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Convenção Interamericana de Preservação do Oceano</div>
+                        <p>Como a floresta amazônica, as baleias do planeta desempenham papéis cruciais como captores de
+                            carbono.</p>
+                        <div class="right"> São Paulo/BRA - 28/03/2020 </div>
+                    </div>
+                </div>
+                <div class="column"> <img src="Eventos/evt8.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Mendocino Coast Whales Festivals</div>
+                        <p>Junte-se a nós no Noroeste do Pacífico para eventos para celebrar a conscientização sobre a
+                            Orca</p>
+                        <div class="right"> London/GBR - 18/04/2020 </div>
+                    </div>
+                </div>
+                <div class="column"> <img src="Eventos/evt9.jpg" alt="">
+                    <div class="evinfo">
+                        <div class="event">Atlantic Whale Foundation</div>
+                        <p>O evento, que apresenta um Simpósio de 2 dias. Além disso, o Save the Whales retorna com Dee.
+                        </p>
+                        <div class="right"> Cape Town/RSA - 07/05/2020 </div>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html">Voltar</a>
+            <div id="anteriores">
+                <h2 class="pubtit">Anteriores</h2><br>
+                <div class="container">
+                    <div class="column"> <img src="Eventos/evt10.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">Blue Whale on the Park</div>
+                            <p> Manifestação pela preservação da vida. Nossos laços precisam de ajuda, faça a sua
+                                parte!<br></p>
+                            <div class="right"> New York/EUA - 15/01/2019 </div>
+                        </div>
+                    </div>
+                    <div class="column"> <img src="Eventos/evt12.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">A Whale of a Dream</div>
+                            <p> Participe de um de nossos eventos de captação de recursos para arrecadar fundos para
+                                baleias.</p>
+                            <div class="right"> Amsterdam/NED - 20/01/2018 </div>
+                        </div>
+                    </div>
+                    <div class="column"> <img src="Eventos/evt13.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">Sea Watch Foundation‎</div>
+                            <p> Corra, ande e nade para ajudar a salvar baleias e golfinhos - talvez você também
+                                consiga?</p>
+                            <div class="right"> Miami/EUA - 06/08/2017 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="column"> <img src="Eventos/evt14.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">All About Whales</div>
+                            <p> Os oceanos são a casa de todos, no Centro, reuniremos os maiores especialistas para
+                                debater, estará
+                                faltando você.</p>
+                            <div class="right"> Lisboa/POR - 13/02/2017 </div>
+                        </div>
+                    </div>
+                    <div class="column"> <img src="Eventos/evt15.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">White Whale - Paris</div>
+                            <p> As pessoas se reúnem na Save the Whales March na Main. O evento foi coordenado com
+                                condados costeiros.</p>
+                            <div class="right"> Paris/FRA - 22/01/2017 </div>
+                        </div>
+                    </div>
+                    <div class="column"> <img src="Eventos/evt16.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">Monterey Whale Festival</div>
+                            <p>Notícias sobre baleias, incluindo artigos. Encontrar maneiras de proteger as baleias com
+                                os pescadores</p>
+                            <div class="right"> Monterey/EUA - 04/03/2016 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="column"> <img src="Eventos/evt17.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">Whale Marketing</div>
+                            <p>As baleias do planeta desempenham papéis cruciais como
+                                captores de carbono. Essa é apenas uma razão para salvá-los.</p>
+                            <div class="right"> Salvador/BRA - 28/01/2016 </div>
+                        </div>
+                    </div>
+                    <div class="column"> <img src="Eventos/evt18.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">Orcas Center - London</div>
+                            <p>Junte-se a nós no Noroeste do Pacífico para eventos para celebrar a conscientização sobre
+                                a Orca</p>
+                            <div class="right"> London/GBR - 18/04/2015 </div>
+                        </div>
+                    </div>
+                    <div class="column"> <img src="Eventos/evt19.jpg" alt="">
+                        <div class="evinfo">
+                            <div class="event">Whale Watching - Patriot Jet Boat</div>
+                            <p>O evento que apresenta o novo JET BOAT. Além disso, o Save the Whales retorna com
+                                Dee.</p>
+                            <div class="right"> Malibu/EUA - 07/01/2015 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sugest-container">
+                    <h2 class="pubtit">Tem qualquer idéia para um evento?<br>Compartilhe conosco.</h2>
+                    <form action="mailto:wjacoud@hotmail.com" method="POST" id="sugest">
+                        <input type="text" placeholder="First Name" />
+                        <input type="text" placeholder="Last Name" />
+                        <input type="email" placeholder="e-mail" />
+                        <input id="aqui" type="text" placeholder="Digite aqui a sua sugestão..." />
+                        <button type="submit" name="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+                    </form>
+                </div>
+                <a href="index.html">Voltar</a>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="contacts">
+            <h3>Contactos:</h3>
+            <div class="social">
+                <a href="https://www.facebook.com/SaveTheWhalesCA/"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.instagram.com/savethewhalesca/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/savethewhalesca"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCtNumOLITLVpDP8beVF9sEA"><i
+                        class="fab fa-youtube-square fa-2x"></i></a>
+            </div>
+            <div class="adress">
+                <h3>Visite nossa sede</h3>
+                Morada: 1192 Waring St, Seaside, CA 93955, Estados Unidos
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.016876299733!2d-121.83682268474976!3d36.
+            60190258653661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de4e0196fb935%3A0xc4d5adf68b8e94fa!2s
+            Save%20the%20Whales!5e0!3m2!1spt-PT!2spt!4v1575220949301!5m2!1spt-PT!2spt" width="300" height="225"
+                frameborder="0" style="border:0;" allowfullscreen="">
+                Location
+            </iframe>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="Slideshow.js"></script>
+
+</html>
